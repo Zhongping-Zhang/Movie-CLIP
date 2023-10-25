@@ -56,4 +56,4 @@ sh scc_scripts/run_train_condensed_movies.sh
 
 **Note**: To smoothly run the scripts, **variables** including *DATA_DIR*, 
 *VISUAL_FOLDER*, *VISUAL_FEATURE_VERSION*, *AUDIO_FEATURE_FILE*,
-*TEXT_TOKEN_FILE*, *TEXT_FEATURE_FILE*. 
+*TEXT_TOKEN_FILE*, *TEXT_FEATURE_FILE* need to be correctly defined. 
