@@ -1,5 +1,5 @@
 # Movie Genre Classification by Language Augmentation and Shot Sampling
-**Movie-CLIP** is a video-based movie genre classification model. This repository contains the PyTorch implementation fo our [paper](https://arxiv.org/abs/2203.13281).
+**Movie-CLIP** is a video-based movie genre classification model. This repository contains the PyTorch implementation for our [paper](https://arxiv.org/abs/2203.13281).
 If you find this code useful in your research, please consider citing:
 
     @InProceedings{zhangMovie2024,
