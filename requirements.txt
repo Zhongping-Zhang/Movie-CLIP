@@ -1,0 +1,13 @@
+clip==0.2.0
+matplotlib==3.2.2
+numpy==1.22.3
+openai_whisper==20230314
+pandas==2.0.2
+Pillow==9.5.0
+pytube==15.0.0
+scikit_learn==1.2.2
+spacy==3.7.2
+torch==2.0.1
+torchvision==0.15.2
+tqdm==4.65.0
+youtube_transcript_api==0.6.1
