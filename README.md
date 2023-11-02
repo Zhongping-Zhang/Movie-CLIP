@@ -24,7 +24,7 @@ We provided the data we employed for model training and evaluation through the f
 | MovieNet (trailer30K) | [trailer30K Link](https://drive.google.com/drive/folders/13383-assGkSU-KO1sNdsJLdvBCvVV4oG?usp=sharing) |
 | CondensedMovies       | [Condensed Movies Link](https://drive.google.com/drive/folders/1RVd_A_JXQtfbVxQ9i9HlP7yphnGIfgq7?usp=sharing)|
 
-If you would like to obtain the original data, we also provide the code to collect videos 
+If you would like to obtain the original data, we also provide the [code](https://github.com/Zhongping-Zhang/Movie-CLIP/blob/main/download_youtube_videos_captions.py) to collect videos 
 using [PyTube](https://github.com/pytube/pytube) and [youtube-transcript-api](https://pypi.org/project/youtube-transcript-api/).
 
 Take trailer30K as an example:
