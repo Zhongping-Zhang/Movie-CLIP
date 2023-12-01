@@ -102,39 +102,5 @@ class trailer_multimodal_features(Dataset):
         return len(self.data)
 
 
-# class trailer_visual_audio_features(trailer_visual_features):
-#     def __init__(self, , **kwargs):
-#         super(trailer_visual_audio_features, self).__init__(**kwargs)
-
-
-
-
-if __name__=="__main__":
-    batch_size = 2
-    shuffle = False
-
-    audio_feature_file=None
-    # audio_feature_file="data/CondensedMovies/MovieCLIP_features/Audio_features/PANNs_embeddings_all.pkl"
-    text_feature_file=None
-    text_feature_file="data/CondensedMovies/MovieCLIP_features/Text_features/whisper_medium_asr_output.json"
-    dataset = trailer_multimodal_features(phase='val',
-                                          audio_feature_file=audio_feature_file,
-                                          text_feature_file=text_feature_file,
-                                          )
-
-
-    dataloader = torch.utils.data.DataLoader(dataset,
-                                             batch_size=batch_size,
-                                             shuffle=shuffle,
-                                             )
-
-    idx = 0
-    for batch_idx, sample in enumerate(dataloader):
-        pass
-        # print(inputs[0].shape, inputs[-1], labels)
-        # print(inputs[1].shape)
-        # break
-
-
 
 
