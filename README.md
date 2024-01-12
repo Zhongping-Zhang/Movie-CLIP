@@ -43,7 +43,7 @@ python download_youtube_videos_captions.py
 
 
 ## Train & Evaluate the Movie-CLIP model
-### Train and Evaluate AP
+### Train and Evaluate mAP
 Run the following script to train and evaluate Movie-CLIP on trailer30K:
 ```sh
 sh scc_scripts/run_train_trailer30K.sh
