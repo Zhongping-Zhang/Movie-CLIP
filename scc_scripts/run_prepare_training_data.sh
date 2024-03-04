@@ -1,5 +1,5 @@
 
-export PTYHONPATH=$PWD
+export PYTHONPATH=$PWD
 
 ######### Extract EVA02-CLIP Features ############
 python dataloader/condensedmovies/prepare_get_visual_features.py \
