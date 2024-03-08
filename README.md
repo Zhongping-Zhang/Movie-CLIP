@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 
 ## Datasets:
-We performed our experiments on two datasets, [MovieNet](http://movienet.site/) and [CondensedMovies](https://www.robots.ox.ac.uk/~vgg/data/condensed-movies/). 
+We performed our experiments on two datasets, [MovieNet](https://movienet.github.io/) and [CondensedMovies](https://www.robots.ox.ac.uk/~vgg/data/condensed-movies/). 
 We provided the data we employed for model training and evaluation through the following links. 
 
 
